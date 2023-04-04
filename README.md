@@ -25,6 +25,7 @@ Functions
 
 
 scrape_tweets(keyword, start_date, end_date, tweet_limit)
+
   This function scrapes Twitter data based on the given search keyword, start_date, end_date, and the tweet_limit (the number of tweets to scrape). 
 It returns a list of dictionaries containing the following tweet information:
 •	date: the date of the tweet
@@ -48,6 +49,7 @@ The Streamlit app code is divided into three sections:
 3.	Save scraped data to MongoDB and download the data
 
 Get user inputs
+
   This section allows the user to input the search keyword, start_date, end_date, and the tweet_limit.
   
 Scrape Twitter data
