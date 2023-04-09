@@ -42,7 +42,9 @@ It returns a list of dictionaries containing the following tweet information:
 download_dataframe(df, format='csv', file_name='data')
 
   This function converts the given dataframe df to either CSV or JSON format, and downloads the resulting file with the given file_name.
+  
 Streamlit App Code
+
 The Streamlit app code is divided into three sections:
 1.	Get user inputs
 2.	Scrape Twitter data
